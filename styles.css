@@ -7,9 +7,7 @@ body {
   margin: 0px;
   display: flex;
   flex-direction: column;
-  //border: 10px solid goldenrod;
   height: 100vh;
-  
 }
 
 .card {
@@ -18,12 +16,18 @@ body {
   flex: 1;
   padding-left: 15px;
   padding-right: 15px;
-  box-shadow: 0px 10px 50px 10px #575757;;
+  box-shadow: 0px 10px 50px 10px #575757;
+  transition: flex 0.4s;
+  display: flex;
+  flex-direction: row;
 }
 
 .card.open {
   flex: 5;
 }
+
+.card > *:last-child {transform: translateX(100%)}
+.card.open > *:last-child {transform: translateX(0)}
 
 
 
