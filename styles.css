@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+}
+
+#variables {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  //border: 10px solid goldenrod;
+  height: 100vh;
+  
+}
+
+.variable {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  flex: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.var1 {
+  background-color: #dadada;
+}
+.var2 {
+  background-color: #aeaeae;
+}
+.var3 {
+  background-color: #aaaaaa;
+}
+.var4 {
+  background-color: #afafaf;
+}
+.var5 {
+  background-color: #a7a7a7;
+}
+.var6 {
+  background-color: #8a8a8a;
+}
+.var7 {
+  background-color: #808080;
+}
