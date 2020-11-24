@@ -26,7 +26,7 @@ body {
   flex: 5;
 }
 
-.card > *:last-child {transform: translateX(100%)}
+.card > *:last-child {transform: translateX(-120%)}
 .card.open > *:last-child {transform: translateX(0)}
 
 
